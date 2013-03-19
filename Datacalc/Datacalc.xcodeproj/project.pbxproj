@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D29D7C2616F4A04700F70789 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29D7C2516F4A04700F70789 /* UIKit.framework */; };
+		D29D7C2816F4A04700F70789 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29D7C2716F4A04700F70789 /* Foundation.framework */; };
+		D29D7C2A16F4A04700F70789 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29D7C2916F4A04700F70789 /* CoreGraphics.framework */; };
+		D29D7C3016F4A04700F70789 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D29D7C2E16F4A04700F70789 /* InfoPlist.strings */; };
+		D29D7C3216F4A04700F70789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D29D7C3116F4A04700F70789 /* main.m */; };
+		D29D7C3616F4A04700F70789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D29D7C3516F4A04700F70789 /* AppDelegate.m */; };
+		D29D7C3916F4A04700F70789 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29D7C3716F4A04700F70789 /* MainStoryboard.storyboard */; };
+		D29D7C3C16F4A04700F70789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29D7C3B16F4A04700F70789 /* ViewController.m */; };
+		D29D7C4416F4A05F00F70789 /* DataChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29D7C4316F4A05F00F70789 /* DataChooserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D29D7C2116F4A04700F70789 /* Datacalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Datacalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29D7C2516F4A04700F70789 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D29D7C2716F4A04700F70789 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D29D7C2916F4A04700F70789 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D29D7C2D16F4A04700F70789 /* Datacalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Datacalc-Info.plist"; sourceTree = "<group>"; };
+		D29D7C2F16F4A04700F70789 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D29D7C3116F4A04700F70789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D29D7C3316F4A04700F70789 /* Datacalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Datacalc-Prefix.pch"; sourceTree = "<group>"; };
+		D29D7C3416F4A04700F70789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D29D7C3516F4A04700F70789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D29D7C3816F4A04700F70789 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D29D7C3A16F4A04700F70789 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D29D7C3B16F4A04700F70789 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D29D7C4216F4A05F00F70789 /* DataChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataChooserViewController.h; sourceTree = "<group>"; };
+		D29D7C4316F4A05F00F70789 /* DataChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataChooserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29D7C1E16F4A04700F70789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29D7C2616F4A04700F70789 /* UIKit.framework in Frameworks */,
+				D29D7C2816F4A04700F70789 /* Foundation.framework in Frameworks */,
+				D29D7C2A16F4A04700F70789 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D29D7C1616F4A04700F70789 = {
+			isa = PBXGroup;
+			children = (
+				D29D7C2B16F4A04700F70789 /* Datacalc */,
+				D29D7C2416F4A04700F70789 /* Frameworks */,
+				D29D7C2216F4A04700F70789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D29D7C2216F4A04700F70789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29D7C2116F4A04700F70789 /* Datacalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29D7C2416F4A04700F70789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29D7C2516F4A04700F70789 /* UIKit.framework */,
+				D29D7C2716F4A04700F70789 /* Foundation.framework */,
+				D29D7C2916F4A04700F70789 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29D7C2B16F4A04700F70789 /* Datacalc */ = {
+			isa = PBXGroup;
+			children = (
+				D29D7C3416F4A04700F70789 /* AppDelegate.h */,
+				D29D7C3516F4A04700F70789 /* AppDelegate.m */,
+				D29D7C3716F4A04700F70789 /* MainStoryboard.storyboard */,
+				D29D7C3A16F4A04700F70789 /* ViewController.h */,
+				D29D7C3B16F4A04700F70789 /* ViewController.m */,
+				D29D7C4216F4A05F00F70789 /* DataChooserViewController.h */,
+				D29D7C4316F4A05F00F70789 /* DataChooserViewController.m */,
+				D29D7C2C16F4A04700F70789 /* Supporting Files */,
+			);
+			path = Datacalc;
+			sourceTree = "<group>";
+		};
+		D29D7C2C16F4A04700F70789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29D7C2D16F4A04700F70789 /* Datacalc-Info.plist */,
+				D29D7C2E16F4A04700F70789 /* InfoPlist.strings */,
+				D29D7C3116F4A04700F70789 /* main.m */,
+				D29D7C3316F4A04700F70789 /* Datacalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29D7C2016F4A04700F70789 /* Datacalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29D7C3F16F4A04700F70789 /* Build configuration list for PBXNativeTarget "Datacalc" */;
+			buildPhases = (
+				D29D7C1D16F4A04700F70789 /* Sources */,
+				D29D7C1E16F4A04700F70789 /* Frameworks */,
+				D29D7C1F16F4A04700F70789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Datacalc;
+			productName = Datacalc;
+			productReference = D29D7C2116F4A04700F70789 /* Datacalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29D7C1816F4A04700F70789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D29D7C1B16F4A04700F70789 /* Build configuration list for PBXProject "Datacalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D29D7C1616F4A04700F70789;
+			productRefGroup = D29D7C2216F4A04700F70789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29D7C2016F4A04700F70789 /* Datacalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29D7C1F16F4A04700F70789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29D7C3016F4A04700F70789 /* InfoPlist.strings in Resources */,
+				D29D7C3916F4A04700F70789 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29D7C1D16F4A04700F70789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29D7C3216F4A04700F70789 /* main.m in Sources */,
+				D29D7C3616F4A04700F70789 /* AppDelegate.m in Sources */,
+				D29D7C3C16F4A04700F70789 /* ViewController.m in Sources */,
+				D29D7C4416F4A05F00F70789 /* DataChooserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D29D7C2E16F4A04700F70789 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29D7C2F16F4A04700F70789 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D29D7C3716F4A04700F70789 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29D7C3816F4A04700F70789 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D29D7C3D16F4A04700F70789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D29D7C3E16F4A04700F70789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D29D7C4016F4A04700F70789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Datacalc/Datacalc-Prefix.pch";
+				INFOPLIST_FILE = "Datacalc/Datacalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D29D7C4116F4A04700F70789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Datacalc/Datacalc-Prefix.pch";
+				INFOPLIST_FILE = "Datacalc/Datacalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29D7C1B16F4A04700F70789 /* Build configuration list for PBXProject "Datacalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29D7C3D16F4A04700F70789 /* Debug */,
+				D29D7C3E16F4A04700F70789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29D7C3F16F4A04700F70789 /* Build configuration list for PBXNativeTarget "Datacalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29D7C4016F4A04700F70789 /* Debug */,
+				D29D7C4116F4A04700F70789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29D7C1816F4A04700F70789 /* Project object */;
+}

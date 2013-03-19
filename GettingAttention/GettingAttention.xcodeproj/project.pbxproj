@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D298D6E716F06B2900CF9A03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D298D6E616F06B2900CF9A03 /* UIKit.framework */; };
+		D298D6E916F06B2900CF9A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D298D6E816F06B2900CF9A03 /* Foundation.framework */; };
+		D298D6EB16F06B2900CF9A03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D298D6EA16F06B2900CF9A03 /* CoreGraphics.framework */; };
+		D298D6F116F06B2900CF9A03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D298D6EF16F06B2900CF9A03 /* InfoPlist.strings */; };
+		D298D6F316F06B2900CF9A03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D298D6F216F06B2900CF9A03 /* main.m */; };
+		D298D6F716F06B2900CF9A03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D298D6F616F06B2900CF9A03 /* AppDelegate.m */; };
+		D298D6FA16F06B2900CF9A03 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D298D6F816F06B2900CF9A03 /* MainStoryboard.storyboard */; };
+		D298D6FD16F06B2900CF9A03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D298D6FC16F06B2900CF9A03 /* ViewController.m */; };
+		D298D70416F06B5200CF9A03 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D298D70316F06B5200CF9A03 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D298D6E216F06B2900CF9A03 /* GettingAttention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingAttention.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D298D6E616F06B2900CF9A03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D298D6E816F06B2900CF9A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D298D6EA16F06B2900CF9A03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D298D6EE16F06B2900CF9A03 /* GettingAttention-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GettingAttention-Info.plist"; sourceTree = "<group>"; };
+		D298D6F016F06B2900CF9A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D298D6F216F06B2900CF9A03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D298D6F416F06B2900CF9A03 /* GettingAttention-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GettingAttention-Prefix.pch"; sourceTree = "<group>"; };
+		D298D6F516F06B2900CF9A03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D298D6F616F06B2900CF9A03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D298D6F916F06B2900CF9A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D298D6FB16F06B2900CF9A03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D298D6FC16F06B2900CF9A03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D298D70316F06B5200CF9A03 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D298D6DF16F06B2900CF9A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D298D70416F06B5200CF9A03 /* AudioToolbox.framework in Frameworks */,
+				D298D6E716F06B2900CF9A03 /* UIKit.framework in Frameworks */,
+				D298D6E916F06B2900CF9A03 /* Foundation.framework in Frameworks */,
+				D298D6EB16F06B2900CF9A03 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D298D6D716F06B2900CF9A03 = {
+			isa = PBXGroup;
+			children = (
+				D298D6EC16F06B2900CF9A03 /* GettingAttention */,
+				D298D6E516F06B2900CF9A03 /* Frameworks */,
+				D298D6E316F06B2900CF9A03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D298D6E316F06B2900CF9A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D298D6E216F06B2900CF9A03 /* GettingAttention.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D298D6E516F06B2900CF9A03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D298D70316F06B5200CF9A03 /* AudioToolbox.framework */,
+				D298D6E616F06B2900CF9A03 /* UIKit.framework */,
+				D298D6E816F06B2900CF9A03 /* Foundation.framework */,
+				D298D6EA16F06B2900CF9A03 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D298D6EC16F06B2900CF9A03 /* GettingAttention */ = {
+			isa = PBXGroup;
+			children = (
+				D298D6F516F06B2900CF9A03 /* AppDelegate.h */,
+				D298D6F616F06B2900CF9A03 /* AppDelegate.m */,
+				D298D6F816F06B2900CF9A03 /* MainStoryboard.storyboard */,
+				D298D6FB16F06B2900CF9A03 /* ViewController.h */,
+				D298D6FC16F06B2900CF9A03 /* ViewController.m */,
+				D298D6ED16F06B2900CF9A03 /* Supporting Files */,
+			);
+			path = GettingAttention;
+			sourceTree = "<group>";
+		};
+		D298D6ED16F06B2900CF9A03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D298D6EE16F06B2900CF9A03 /* GettingAttention-Info.plist */,
+				D298D6EF16F06B2900CF9A03 /* InfoPlist.strings */,
+				D298D6F216F06B2900CF9A03 /* main.m */,
+				D298D6F416F06B2900CF9A03 /* GettingAttention-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D298D6E116F06B2900CF9A03 /* GettingAttention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D298D70016F06B2900CF9A03 /* Build configuration list for PBXNativeTarget "GettingAttention" */;
+			buildPhases = (
+				D298D6DE16F06B2900CF9A03 /* Sources */,
+				D298D6DF16F06B2900CF9A03 /* Frameworks */,
+				D298D6E016F06B2900CF9A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GettingAttention;
+			productName = GettingAttention;
+			productReference = D298D6E216F06B2900CF9A03 /* GettingAttention.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D298D6D916F06B2900CF9A03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D298D6DC16F06B2900CF9A03 /* Build configuration list for PBXProject "GettingAttention" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D298D6D716F06B2900CF9A03;
+			productRefGroup = D298D6E316F06B2900CF9A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D298D6E116F06B2900CF9A03 /* GettingAttention */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D298D6E016F06B2900CF9A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D298D6F116F06B2900CF9A03 /* InfoPlist.strings in Resources */,
+				D298D6FA16F06B2900CF9A03 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D298D6DE16F06B2900CF9A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D298D6F316F06B2900CF9A03 /* main.m in Sources */,
+				D298D6F716F06B2900CF9A03 /* AppDelegate.m in Sources */,
+				D298D6FD16F06B2900CF9A03 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D298D6EF16F06B2900CF9A03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D298D6F016F06B2900CF9A03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D298D6F816F06B2900CF9A03 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D298D6F916F06B2900CF9A03 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D298D6FE16F06B2900CF9A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D298D6FF16F06B2900CF9A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D298D70116F06B2900CF9A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GettingAttention/GettingAttention-Prefix.pch";
+				INFOPLIST_FILE = "GettingAttention/GettingAttention-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D298D70216F06B2900CF9A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GettingAttention/GettingAttention-Prefix.pch";
+				INFOPLIST_FILE = "GettingAttention/GettingAttention-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D298D6DC16F06B2900CF9A03 /* Build configuration list for PBXProject "GettingAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D298D6FE16F06B2900CF9A03 /* Debug */,
+				D298D6FF16F06B2900CF9A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D298D70016F06B2900CF9A03 /* Build configuration list for PBXNativeTarget "GettingAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D298D70116F06B2900CF9A03 /* Debug */,
+				D298D70216F06B2900CF9A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D298D6D916F06B2900CF9A03 /* Project object */;
+}

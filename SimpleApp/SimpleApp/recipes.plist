@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RecipesName</key>
+	<array>
+		<string>fengjian</string>
+		<string>zhaiB</string>
+		<string>zhouB</string>
+		<string>zhaoB</string>
+		<string>chenB</string>
+		<string>liB</string>
+		<string>huB</string>
+		<string>yuB</string>
+	</array>
+	<key>Thumbnail</key>
+	<array>
+		<string>yuanhuan.jpeg</string>
+	</array>
+	<key>PrepTime</key>
+	<array>
+		<string>30min</string>
+		<string>25min</string>
+	</array>
+</dict>
+</plist>

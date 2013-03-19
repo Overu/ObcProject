@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21A0E4B162D10C2005F8009 /* Thingie.m in Sources */ = {isa = PBXBuildFile; fileRef = D21A0E4A162D10C2005F8009 /* Thingie.m */; };
+		D2904D1416253E5600F6FFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2904D1316253E5600F6FFE2 /* Foundation.framework */; };
+		D2904D1716253E5600F6FFE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2904D1616253E5600F6FFE2 /* main.m */; };
+		D2904D1B16253E5600F6FFE2 /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2904D1A16253E5600F6FFE2 /* HelloWorld.1 */; };
+		D2904D291625669500F6FFE2 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D2904D281625669500F6FFE2 /* Circle.m */; };
+		D2904D2C16256CC500F6FFE2 /* Snape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2904D2B16256CC500F6FFE2 /* Snape.m */; };
+		D2904D2F16256EC900F6FFE2 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D2904D2E16256EC900F6FFE2 /* Rectangle.m */; };
+		D297DEF016265BF5006C6D56 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = D297DEEF16265BF5006C6D56 /* Tire.m */; };
+		D297DEF316265D24006C6D56 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = D297DEF216265D24006C6D56 /* Engine.m */; };
+		D297DEF616265D8E006C6D56 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D297DEF516265D8E006C6D56 /* Car.m */; };
+		D298410F162675250089D486 /* Slant6.m in Sources */ = {isa = PBXBuildFile; fileRef = D298410E162675250089D486 /* Slant6.m */; };
+		D2984113162675B40089D486 /* AllweatherRadial.m in Sources */ = {isa = PBXBuildFile; fileRef = D2984112162675B40089D486 /* AllweatherRadial.m */; };
+		D299BA3E162E559100C722ED /* Garage.m in Sources */ = {isa = PBXBuildFile; fileRef = D299BA3D162E559100C722ED /* Garage.m */; };
+		D299D4BF162BAAC500984FB9 /* NSString+NumberConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = D299D4BE162BAAC500984FB9 /* NSString+NumberConvenience.m */; };
+		D299D4C3162BB75F00984FB9 /* CategoryThing.m in Sources */ = {isa = PBXBuildFile; fileRef = D299D4C2162BB75F00984FB9 /* CategoryThing.m */; };
+		D2A2F7B6162D536800366DBA /* NSMutableArray+MutableDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A2F7B5162D536800366DBA /* NSMutableArray+MutableDesc.m */; };
+		D2A329DB162BE5A000433140 /* ITunesFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A329DA162BE5A000433140 /* ITunesFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2904D0D16253E5600F6FFE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D2904D1B16253E5600F6FFE2 /* HelloWorld.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D21A0E49162D10C2005F8009 /* Thingie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thingie.h; sourceTree = "<group>"; };
+		D21A0E4A162D10C2005F8009 /* Thingie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thingie.m; sourceTree = "<group>"; };
+		D2904D0F16253E5600F6FFE2 /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2904D1316253E5600F6FFE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2904D1616253E5600F6FFE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2904D1916253E5600F6FFE2 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		D2904D1A16253E5600F6FFE2 /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
+		D2904D261625577B00F6FFE2 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		D2904D271625669500F6FFE2 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		D2904D281625669500F6FFE2 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		D2904D2A16256CC500F6FFE2 /* Snape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snape.h; sourceTree = "<group>"; };
+		D2904D2B16256CC500F6FFE2 /* Snape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snape.m; sourceTree = "<group>"; };
+		D2904D2D16256EC900F6FFE2 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		D2904D2E16256EC900F6FFE2 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		D297DEEE16265BF5006C6D56 /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		D297DEEF16265BF5006C6D56 /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		D297DEF116265D24006C6D56 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		D297DEF216265D24006C6D56 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		D297DEF416265D8E006C6D56 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		D297DEF516265D8E006C6D56 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		D298410D162675250089D486 /* Slant6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slant6.h; sourceTree = "<group>"; };
+		D298410E162675250089D486 /* Slant6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slant6.m; sourceTree = "<group>"; };
+		D2984111162675B40089D486 /* AllweatherRadial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllweatherRadial.h; sourceTree = "<group>"; };
+		D2984112162675B40089D486 /* AllweatherRadial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllweatherRadial.m; sourceTree = "<group>"; };
+		D299BA3C162E559100C722ED /* Garage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Garage.h; sourceTree = "<group>"; };
+		D299BA3D162E559100C722ED /* Garage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Garage.m; sourceTree = "<group>"; };
+		D299D4BD162BAAC500984FB9 /* NSString+NumberConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberConvenience.h"; sourceTree = "<group>"; };
+		D299D4BE162BAAC500984FB9 /* NSString+NumberConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberConvenience.m"; sourceTree = "<group>"; };
+		D299D4C1162BB75F00984FB9 /* CategoryThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryThing.h; sourceTree = "<group>"; };
+		D299D4C2162BB75F00984FB9 /* CategoryThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryThing.m; sourceTree = "<group>"; };
+		D2A2F7B4162D536800366DBA /* NSMutableArray+MutableDesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MutableDesc.h"; sourceTree = "<group>"; };
+		D2A2F7B5162D536800366DBA /* NSMutableArray+MutableDesc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MutableDesc.m"; sourceTree = "<group>"; };
+		D2A329D9162BE59100433140 /* ITunesFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesFinder.h; sourceTree = "<group>"; };
+		D2A329DA162BE5A000433140 /* ITunesFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesFinder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2904D0C16253E5600F6FFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2904D1416253E5600F6FFE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2904D0416253E5600F6FFE2 = {
+			isa = PBXGroup;
+			children = (
+				D2904D1216253E5600F6FFE2 /* Frameworks */,
+				D2904D1516253E5600F6FFE2 /* HelloWorld */,
+				D2904D1016253E5600F6FFE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2904D1016253E5600F6FFE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2904D0F16253E5600F6FFE2 /* HelloWorld */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2904D1216253E5600F6FFE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2904D1316253E5600F6FFE2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2904D1516253E5600F6FFE2 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				D2904D1616253E5600F6FFE2 /* main.m */,
+				D2904D2A16256CC500F6FFE2 /* Snape.h */,
+				D2904D2B16256CC500F6FFE2 /* Snape.m */,
+				D2904D261625577B00F6FFE2 /* ReadMe.txt */,
+				D2904D1A16253E5600F6FFE2 /* HelloWorld.1 */,
+				D2904D1816253E5600F6FFE2 /* Supporting Files */,
+				D2904D271625669500F6FFE2 /* Circle.h */,
+				D2904D281625669500F6FFE2 /* Circle.m */,
+				D2904D2D16256EC900F6FFE2 /* Rectangle.h */,
+				D2904D2E16256EC900F6FFE2 /* Rectangle.m */,
+				D297DEEE16265BF5006C6D56 /* Tire.h */,
+				D297DEEF16265BF5006C6D56 /* Tire.m */,
+				D297DEF116265D24006C6D56 /* Engine.h */,
+				D297DEF216265D24006C6D56 /* Engine.m */,
+				D297DEF416265D8E006C6D56 /* Car.h */,
+				D297DEF516265D8E006C6D56 /* Car.m */,
+				D298410D162675250089D486 /* Slant6.h */,
+				D298410E162675250089D486 /* Slant6.m */,
+				D2984111162675B40089D486 /* AllweatherRadial.h */,
+				D2984112162675B40089D486 /* AllweatherRadial.m */,
+				D299D4BD162BAAC500984FB9 /* NSString+NumberConvenience.h */,
+				D299D4BE162BAAC500984FB9 /* NSString+NumberConvenience.m */,
+				D299D4C1162BB75F00984FB9 /* CategoryThing.h */,
+				D299D4C2162BB75F00984FB9 /* CategoryThing.m */,
+				D2A329D9162BE59100433140 /* ITunesFinder.h */,
+				D2A329DA162BE5A000433140 /* ITunesFinder.m */,
+				D21A0E49162D10C2005F8009 /* Thingie.h */,
+				D21A0E4A162D10C2005F8009 /* Thingie.m */,
+				D2A2F7B4162D536800366DBA /* NSMutableArray+MutableDesc.h */,
+				D2A2F7B5162D536800366DBA /* NSMutableArray+MutableDesc.m */,
+				D299BA3C162E559100C722ED /* Garage.h */,
+				D299BA3D162E559100C722ED /* Garage.m */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		D2904D1816253E5600F6FFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2904D1916253E5600F6FFE2 /* HelloWorld-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2904D0E16253E5600F6FFE2 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2904D1E16253E5600F6FFE2 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				D2904D0B16253E5600F6FFE2 /* Sources */,
+				D2904D0C16253E5600F6FFE2 /* Frameworks */,
+				D2904D0D16253E5600F6FFE2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = D2904D0F16253E5600F6FFE2 /* HelloWorld */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2904D0616253E5600F6FFE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D2904D0916253E5600F6FFE2 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2904D0416253E5600F6FFE2;
+			productRefGroup = D2904D1016253E5600F6FFE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2904D0E16253E5600F6FFE2 /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2904D0B16253E5600F6FFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2904D1716253E5600F6FFE2 /* main.m in Sources */,
+				D2904D291625669500F6FFE2 /* Circle.m in Sources */,
+				D2904D2C16256CC500F6FFE2 /* Snape.m in Sources */,
+				D2904D2F16256EC900F6FFE2 /* Rectangle.m in Sources */,
+				D297DEF016265BF5006C6D56 /* Tire.m in Sources */,
+				D297DEF316265D24006C6D56 /* Engine.m in Sources */,
+				D297DEF616265D8E006C6D56 /* Car.m in Sources */,
+				D298410F162675250089D486 /* Slant6.m in Sources */,
+				D2984113162675B40089D486 /* AllweatherRadial.m in Sources */,
+				D299D4BF162BAAC500984FB9 /* NSString+NumberConvenience.m in Sources */,
+				D299D4C3162BB75F00984FB9 /* CategoryThing.m in Sources */,
+				D2A329DB162BE5A000433140 /* ITunesFinder.m in Sources */,
+				D21A0E4B162D10C2005F8009 /* Thingie.m in Sources */,
+				D2A2F7B6162D536800366DBA /* NSMutableArray+MutableDesc.m in Sources */,
+				D299BA3E162E559100C722ED /* Garage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D2904D1C16253E5600F6FFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2904D1D16253E5600F6FFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2904D1F16253E5600F6FFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2904D2016253E5600F6FFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2904D0916253E5600F6FFE2 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2904D1C16253E5600F6FFE2 /* Debug */,
+				D2904D1D16253E5600F6FFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2904D1E16253E5600F6FFE2 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2904D1F16253E5600F6FFE2 /* Debug */,
+				D2904D2016253E5600F6FFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2904D0616253E5600F6FFE2 /* Project object */;
+}
