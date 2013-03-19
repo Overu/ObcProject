@@ -48,6 +48,7 @@
 {
     NSString *pushText;
     pushText = [[NSString alloc] initWithFormat: @"%d", ((CountingNavigationController *) self.parentViewController).pushCount];
+    self.pushCount.text = pushText;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
