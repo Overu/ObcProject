@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2177" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1173"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="1h8-YM-TcM">
+                                <rect key="frame" x="20" y="421" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="setLightSourceAlphaValue:" destination="2" eventType="valueChanged" id="ebU-V1-JBX"/>
+                                </connections>
+                            </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="MfT-mZ-cmy">
+                                <rect key="frame" x="109" y="424" width="193" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="setLightSourceAlphaValue:" destination="2" eventType="valueChanged" id="YGb-Uq-sDK"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" id="gcq-0m-uc0">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="408"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="brightnessSlider" destination="MfT-mZ-cmy" id="hmR-dK-PDU"/>
+                        <outlet property="lightSource" destination="gcq-0m-uc0" id="jVL-CP-sqS"/>
+                        <outlet property="toggleSwitch" destination="1h8-YM-TcM" id="5CE-FD-hzE"/>
+                    </connections>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="setLightSourceAlphaValue:"/>
+                <relationship kind="outlet" name="brightnessSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="lightSource" candidateClass="UIView"/>
+                <relationship kind="outlet" name="toggleSwitch" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

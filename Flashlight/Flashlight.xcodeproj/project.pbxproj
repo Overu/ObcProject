@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D29954F116FC768B00F701E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29954F016FC768B00F701E0 /* UIKit.framework */; };
+		D29954F316FC768B00F701E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29954F216FC768B00F701E0 /* Foundation.framework */; };
+		D29954F516FC768B00F701E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29954F416FC768B00F701E0 /* CoreGraphics.framework */; };
+		D29954FB16FC768B00F701E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D29954F916FC768B00F701E0 /* InfoPlist.strings */; };
+		D29954FD16FC768B00F701E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D29954FC16FC768B00F701E0 /* main.m */; };
+		D299550116FC768B00F701E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D299550016FC768B00F701E0 /* AppDelegate.m */; };
+		D299550416FC768B00F701E0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D299550216FC768B00F701E0 /* MainStoryboard.storyboard */; };
+		D299550716FC768B00F701E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D299550616FC768B00F701E0 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D29954EC16FC768B00F701E0 /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29954F016FC768B00F701E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D29954F216FC768B00F701E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D29954F416FC768B00F701E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D29954F816FC768B00F701E0 /* Flashlight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flashlight-Info.plist"; sourceTree = "<group>"; };
+		D29954FA16FC768B00F701E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D29954FC16FC768B00F701E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D29954FE16FC768B00F701E0 /* Flashlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flashlight-Prefix.pch"; sourceTree = "<group>"; };
+		D29954FF16FC768B00F701E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D299550016FC768B00F701E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D299550316FC768B00F701E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D299550516FC768B00F701E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D299550616FC768B00F701E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29954E916FC768B00F701E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29954F116FC768B00F701E0 /* UIKit.framework in Frameworks */,
+				D29954F316FC768B00F701E0 /* Foundation.framework in Frameworks */,
+				D29954F516FC768B00F701E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D29954E116FC768B00F701E0 = {
+			isa = PBXGroup;
+			children = (
+				D29954F616FC768B00F701E0 /* Flashlight */,
+				D29954EF16FC768B00F701E0 /* Frameworks */,
+				D29954ED16FC768B00F701E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D29954ED16FC768B00F701E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29954EC16FC768B00F701E0 /* Flashlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29954EF16FC768B00F701E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29954F016FC768B00F701E0 /* UIKit.framework */,
+				D29954F216FC768B00F701E0 /* Foundation.framework */,
+				D29954F416FC768B00F701E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29954F616FC768B00F701E0 /* Flashlight */ = {
+			isa = PBXGroup;
+			children = (
+				D29954FF16FC768B00F701E0 /* AppDelegate.h */,
+				D299550016FC768B00F701E0 /* AppDelegate.m */,
+				D299550216FC768B00F701E0 /* MainStoryboard.storyboard */,
+				D299550516FC768B00F701E0 /* ViewController.h */,
+				D299550616FC768B00F701E0 /* ViewController.m */,
+				D29954F716FC768B00F701E0 /* Supporting Files */,
+			);
+			path = Flashlight;
+			sourceTree = "<group>";
+		};
+		D29954F716FC768B00F701E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29954F816FC768B00F701E0 /* Flashlight-Info.plist */,
+				D29954F916FC768B00F701E0 /* InfoPlist.strings */,
+				D29954FC16FC768B00F701E0 /* main.m */,
+				D29954FE16FC768B00F701E0 /* Flashlight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29954EB16FC768B00F701E0 /* Flashlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299550A16FC768B00F701E0 /* Build configuration list for PBXNativeTarget "Flashlight" */;
+			buildPhases = (
+				D29954E816FC768B00F701E0 /* Sources */,
+				D29954E916FC768B00F701E0 /* Frameworks */,
+				D29954EA16FC768B00F701E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flashlight;
+			productName = Flashlight;
+			productReference = D29954EC16FC768B00F701E0 /* Flashlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29954E316FC768B00F701E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D29954E616FC768B00F701E0 /* Build configuration list for PBXProject "Flashlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D29954E116FC768B00F701E0;
+			productRefGroup = D29954ED16FC768B00F701E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29954EB16FC768B00F701E0 /* Flashlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29954EA16FC768B00F701E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29954FB16FC768B00F701E0 /* InfoPlist.strings in Resources */,
+				D299550416FC768B00F701E0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29954E816FC768B00F701E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29954FD16FC768B00F701E0 /* main.m in Sources */,
+				D299550116FC768B00F701E0 /* AppDelegate.m in Sources */,
+				D299550716FC768B00F701E0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D29954F916FC768B00F701E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29954FA16FC768B00F701E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D299550216FC768B00F701E0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D299550316FC768B00F701E0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D299550816FC768B00F701E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D299550916FC768B00F701E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299550B16FC768B00F701E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flashlight/Flashlight-Prefix.pch";
+				INFOPLIST_FILE = "Flashlight/Flashlight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D299550C16FC768B00F701E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flashlight/Flashlight-Prefix.pch";
+				INFOPLIST_FILE = "Flashlight/Flashlight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29954E616FC768B00F701E0 /* Build configuration list for PBXProject "Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299550816FC768B00F701E0 /* Debug */,
+				D299550916FC768B00F701E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D299550A16FC768B00F701E0 /* Build configuration list for PBXNativeTarget "Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299550B16FC768B00F701E0 /* Debug */,
+				D299550C16FC768B00F701E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29954E316FC768B00F701E0 /* Project object */;
+}
