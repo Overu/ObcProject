@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D29A371716FD5B9D00583EC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29A371616FD5B9D00583EC3 /* UIKit.framework */; };
+		D29A371916FD5B9D00583EC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29A371816FD5B9D00583EC3 /* Foundation.framework */; };
+		D29A371B16FD5B9D00583EC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29A371A16FD5B9D00583EC3 /* CoreGraphics.framework */; };
+		D29A372116FD5B9D00583EC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D29A371F16FD5B9D00583EC3 /* InfoPlist.strings */; };
+		D29A372316FD5B9D00583EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A372216FD5B9D00583EC3 /* main.m */; };
+		D29A372716FD5B9D00583EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A372616FD5B9D00583EC3 /* AppDelegate.m */; };
+		D29A372A16FD5B9D00583EC3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29A372816FD5B9D00583EC3 /* MainStoryboard.storyboard */; };
+		D29A372D16FD5B9D00583EC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A372C16FD5B9D00583EC3 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D29A371216FD5B9D00583EC3 /* SimpleSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29A371616FD5B9D00583EC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D29A371816FD5B9D00583EC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D29A371A16FD5B9D00583EC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D29A371E16FD5B9D00583EC3 /* SimpleSpin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleSpin-Info.plist"; sourceTree = "<group>"; };
+		D29A372016FD5B9D00583EC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D29A372216FD5B9D00583EC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D29A372416FD5B9D00583EC3 /* SimpleSpin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleSpin-Prefix.pch"; sourceTree = "<group>"; };
+		D29A372516FD5B9D00583EC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D29A372616FD5B9D00583EC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D29A372916FD5B9D00583EC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D29A372B16FD5B9D00583EC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D29A372C16FD5B9D00583EC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29A370F16FD5B9D00583EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29A371716FD5B9D00583EC3 /* UIKit.framework in Frameworks */,
+				D29A371916FD5B9D00583EC3 /* Foundation.framework in Frameworks */,
+				D29A371B16FD5B9D00583EC3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D29A370716FD5B9D00583EC3 = {
+			isa = PBXGroup;
+			children = (
+				D29A371C16FD5B9D00583EC3 /* SimpleSpin */,
+				D29A371516FD5B9D00583EC3 /* Frameworks */,
+				D29A371316FD5B9D00583EC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D29A371316FD5B9D00583EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29A371216FD5B9D00583EC3 /* SimpleSpin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29A371516FD5B9D00583EC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29A371616FD5B9D00583EC3 /* UIKit.framework */,
+				D29A371816FD5B9D00583EC3 /* Foundation.framework */,
+				D29A371A16FD5B9D00583EC3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29A371C16FD5B9D00583EC3 /* SimpleSpin */ = {
+			isa = PBXGroup;
+			children = (
+				D29A372516FD5B9D00583EC3 /* AppDelegate.h */,
+				D29A372616FD5B9D00583EC3 /* AppDelegate.m */,
+				D29A372816FD5B9D00583EC3 /* MainStoryboard.storyboard */,
+				D29A372B16FD5B9D00583EC3 /* ViewController.h */,
+				D29A372C16FD5B9D00583EC3 /* ViewController.m */,
+				D29A371D16FD5B9D00583EC3 /* Supporting Files */,
+			);
+			path = SimpleSpin;
+			sourceTree = "<group>";
+		};
+		D29A371D16FD5B9D00583EC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29A371E16FD5B9D00583EC3 /* SimpleSpin-Info.plist */,
+				D29A371F16FD5B9D00583EC3 /* InfoPlist.strings */,
+				D29A372216FD5B9D00583EC3 /* main.m */,
+				D29A372416FD5B9D00583EC3 /* SimpleSpin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29A371116FD5B9D00583EC3 /* SimpleSpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29A373016FD5B9D00583EC3 /* Build configuration list for PBXNativeTarget "SimpleSpin" */;
+			buildPhases = (
+				D29A370E16FD5B9D00583EC3 /* Sources */,
+				D29A370F16FD5B9D00583EC3 /* Frameworks */,
+				D29A371016FD5B9D00583EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSpin;
+			productName = SimpleSpin;
+			productReference = D29A371216FD5B9D00583EC3 /* SimpleSpin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29A370916FD5B9D00583EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D29A370C16FD5B9D00583EC3 /* Build configuration list for PBXProject "SimpleSpin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D29A370716FD5B9D00583EC3;
+			productRefGroup = D29A371316FD5B9D00583EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29A371116FD5B9D00583EC3 /* SimpleSpin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29A371016FD5B9D00583EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29A372116FD5B9D00583EC3 /* InfoPlist.strings in Resources */,
+				D29A372A16FD5B9D00583EC3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29A370E16FD5B9D00583EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29A372316FD5B9D00583EC3 /* main.m in Sources */,
+				D29A372716FD5B9D00583EC3 /* AppDelegate.m in Sources */,
+				D29A372D16FD5B9D00583EC3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D29A371F16FD5B9D00583EC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29A372016FD5B9D00583EC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D29A372816FD5B9D00583EC3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29A372916FD5B9D00583EC3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D29A372E16FD5B9D00583EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D29A372F16FD5B9D00583EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D29A373116FD5B9D00583EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleSpin/SimpleSpin-Prefix.pch";
+				INFOPLIST_FILE = "SimpleSpin/SimpleSpin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D29A373216FD5B9D00583EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleSpin/SimpleSpin-Prefix.pch";
+				INFOPLIST_FILE = "SimpleSpin/SimpleSpin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29A370C16FD5B9D00583EC3 /* Build configuration list for PBXProject "SimpleSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29A372E16FD5B9D00583EC3 /* Debug */,
+				D29A372F16FD5B9D00583EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29A373016FD5B9D00583EC3 /* Build configuration list for PBXNativeTarget "SimpleSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29A373116FD5B9D00583EC3 /* Debug */,
+				D29A373216FD5B9D00583EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29A370916FD5B9D00583EC3 /* Project object */;
+}
