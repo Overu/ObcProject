@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D299CD1F17046104002FDDB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299CD1E17046104002FDDB8 /* UIKit.framework */; };
+		D299CD2117046104002FDDB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299CD2017046104002FDDB8 /* Foundation.framework */; };
+		D299CD2317046104002FDDB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299CD2217046104002FDDB8 /* CoreGraphics.framework */; };
+		D299CD2917046104002FDDB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D299CD2717046104002FDDB8 /* InfoPlist.strings */; };
+		D299CD2B17046104002FDDB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D299CD2A17046104002FDDB8 /* main.m */; };
+		D299CD2F17046104002FDDB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D299CD2E17046104002FDDB8 /* AppDelegate.m */; };
+		D299CD3217046104002FDDB8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D299CD3017046104002FDDB8 /* MainStoryboard.storyboard */; };
+		D299CD3517046104002FDDB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D299CD3417046104002FDDB8 /* ViewController.m */; };
+		D299CD3C17046122002FDDB8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299CD3B17046122002FDDB8 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D299CD1A17046104002FDDB8 /* ColorTilt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTilt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D299CD1E17046104002FDDB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D299CD2017046104002FDDB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D299CD2217046104002FDDB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D299CD2617046104002FDDB8 /* ColorTilt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorTilt-Info.plist"; sourceTree = "<group>"; };
+		D299CD2817046104002FDDB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D299CD2A17046104002FDDB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D299CD2C17046104002FDDB8 /* ColorTilt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorTilt-Prefix.pch"; sourceTree = "<group>"; };
+		D299CD2D17046104002FDDB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D299CD2E17046104002FDDB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D299CD3117046104002FDDB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D299CD3317046104002FDDB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D299CD3417046104002FDDB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D299CD3B17046122002FDDB8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D299CD1717046104002FDDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299CD3C17046122002FDDB8 /* CoreMotion.framework in Frameworks */,
+				D299CD1F17046104002FDDB8 /* UIKit.framework in Frameworks */,
+				D299CD2117046104002FDDB8 /* Foundation.framework in Frameworks */,
+				D299CD2317046104002FDDB8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D299CD0F17046104002FDDB8 = {
+			isa = PBXGroup;
+			children = (
+				D299CD2417046104002FDDB8 /* ColorTilt */,
+				D299CD1D17046104002FDDB8 /* Frameworks */,
+				D299CD1B17046104002FDDB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D299CD1B17046104002FDDB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D299CD1A17046104002FDDB8 /* ColorTilt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D299CD1D17046104002FDDB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D299CD3B17046122002FDDB8 /* CoreMotion.framework */,
+				D299CD1E17046104002FDDB8 /* UIKit.framework */,
+				D299CD2017046104002FDDB8 /* Foundation.framework */,
+				D299CD2217046104002FDDB8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D299CD2417046104002FDDB8 /* ColorTilt */ = {
+			isa = PBXGroup;
+			children = (
+				D299CD2D17046104002FDDB8 /* AppDelegate.h */,
+				D299CD2E17046104002FDDB8 /* AppDelegate.m */,
+				D299CD3017046104002FDDB8 /* MainStoryboard.storyboard */,
+				D299CD3317046104002FDDB8 /* ViewController.h */,
+				D299CD3417046104002FDDB8 /* ViewController.m */,
+				D299CD2517046104002FDDB8 /* Supporting Files */,
+			);
+			path = ColorTilt;
+			sourceTree = "<group>";
+		};
+		D299CD2517046104002FDDB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D299CD2617046104002FDDB8 /* ColorTilt-Info.plist */,
+				D299CD2717046104002FDDB8 /* InfoPlist.strings */,
+				D299CD2A17046104002FDDB8 /* main.m */,
+				D299CD2C17046104002FDDB8 /* ColorTilt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D299CD1917046104002FDDB8 /* ColorTilt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299CD3817046104002FDDB8 /* Build configuration list for PBXNativeTarget "ColorTilt" */;
+			buildPhases = (
+				D299CD1617046104002FDDB8 /* Sources */,
+				D299CD1717046104002FDDB8 /* Frameworks */,
+				D299CD1817046104002FDDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorTilt;
+			productName = ColorTilt;
+			productReference = D299CD1A17046104002FDDB8 /* ColorTilt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D299CD1117046104002FDDB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D299CD1417046104002FDDB8 /* Build configuration list for PBXProject "ColorTilt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D299CD0F17046104002FDDB8;
+			productRefGroup = D299CD1B17046104002FDDB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D299CD1917046104002FDDB8 /* ColorTilt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D299CD1817046104002FDDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299CD2917046104002FDDB8 /* InfoPlist.strings in Resources */,
+				D299CD3217046104002FDDB8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D299CD1617046104002FDDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299CD2B17046104002FDDB8 /* main.m in Sources */,
+				D299CD2F17046104002FDDB8 /* AppDelegate.m in Sources */,
+				D299CD3517046104002FDDB8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D299CD2717046104002FDDB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D299CD2817046104002FDDB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D299CD3017046104002FDDB8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D299CD3117046104002FDDB8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D299CD3617046104002FDDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D299CD3717046104002FDDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299CD3917046104002FDDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
+				INFOPLIST_FILE = "ColorTilt/ColorTilt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D299CD3A17046104002FDDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
+				INFOPLIST_FILE = "ColorTilt/ColorTilt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D299CD1417046104002FDDB8 /* Build configuration list for PBXProject "ColorTilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299CD3617046104002FDDB8 /* Debug */,
+				D299CD3717046104002FDDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D299CD3817046104002FDDB8 /* Build configuration list for PBXNativeTarget "ColorTilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299CD3917046104002FDDB8 /* Debug */,
+				D299CD3A17046104002FDDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D299CD1117046104002FDDB8 /* Project object */;
+}
