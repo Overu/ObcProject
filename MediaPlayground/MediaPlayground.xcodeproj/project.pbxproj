@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D29EA0971720109100409268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29EA0961720109100409268 /* UIKit.framework */; };
+		D29EA0991720109100409268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29EA0981720109100409268 /* Foundation.framework */; };
+		D29EA09B1720109100409268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29EA09A1720109100409268 /* CoreGraphics.framework */; };
+		D29EA0A11720109100409268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D29EA09F1720109100409268 /* InfoPlist.strings */; };
+		D29EA0A31720109100409268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D29EA0A21720109100409268 /* main.m */; };
+		D29EA0A71720109100409268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D29EA0A61720109100409268 /* AppDelegate.m */; };
+		D29EA0AA1720109100409268 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29EA0A81720109100409268 /* MainStoryboard.storyboard */; };
+		D29EA0AD1720109100409268 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29EA0AC1720109100409268 /* ViewController.m */; };
+		D29EA0B41720126400409268 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29EA0B31720126400409268 /* MediaPlayer.framework */; };
+		D29EA0B61720126E00409268 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29EA0B51720126E00409268 /* AVFoundation.framework */; };
+		D29EA0B81720127600409268 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29EA0B71720127600409268 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D29EA0921720109100409268 /* MediaPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29EA0961720109100409268 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D29EA0981720109100409268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D29EA09A1720109100409268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D29EA09E1720109100409268 /* MediaPlayground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaPlayground-Info.plist"; sourceTree = "<group>"; };
+		D29EA0A01720109100409268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D29EA0A21720109100409268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D29EA0A41720109100409268 /* MediaPlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaPlayground-Prefix.pch"; sourceTree = "<group>"; };
+		D29EA0A51720109100409268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D29EA0A61720109100409268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D29EA0A91720109100409268 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D29EA0AB1720109100409268 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D29EA0AC1720109100409268 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D29EA0B31720126400409268 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D29EA0B51720126E00409268 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D29EA0B71720127600409268 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29EA08F1720109100409268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29EA0B81720127600409268 /* CoreImage.framework in Frameworks */,
+				D29EA0B61720126E00409268 /* AVFoundation.framework in Frameworks */,
+				D29EA0B41720126400409268 /* MediaPlayer.framework in Frameworks */,
+				D29EA0971720109100409268 /* UIKit.framework in Frameworks */,
+				D29EA0991720109100409268 /* Foundation.framework in Frameworks */,
+				D29EA09B1720109100409268 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D29EA0871720109100409268 = {
+			isa = PBXGroup;
+			children = (
+				D29EA09C1720109100409268 /* MediaPlayground */,
+				D29EA0951720109100409268 /* Frameworks */,
+				D29EA0931720109100409268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D29EA0931720109100409268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29EA0921720109100409268 /* MediaPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29EA0951720109100409268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29EA0B71720127600409268 /* CoreImage.framework */,
+				D29EA0B51720126E00409268 /* AVFoundation.framework */,
+				D29EA0B31720126400409268 /* MediaPlayer.framework */,
+				D29EA0961720109100409268 /* UIKit.framework */,
+				D29EA0981720109100409268 /* Foundation.framework */,
+				D29EA09A1720109100409268 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29EA09C1720109100409268 /* MediaPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				D29EA0A51720109100409268 /* AppDelegate.h */,
+				D29EA0A61720109100409268 /* AppDelegate.m */,
+				D29EA0A81720109100409268 /* MainStoryboard.storyboard */,
+				D29EA0AB1720109100409268 /* ViewController.h */,
+				D29EA0AC1720109100409268 /* ViewController.m */,
+				D29EA0B91720186A00409268 /* media */,
+				D29EA09D1720109100409268 /* Supporting Files */,
+			);
+			path = MediaPlayground;
+			sourceTree = "<group>";
+		};
+		D29EA09D1720109100409268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29EA09E1720109100409268 /* MediaPlayground-Info.plist */,
+				D29EA09F1720109100409268 /* InfoPlist.strings */,
+				D29EA0A21720109100409268 /* main.m */,
+				D29EA0A41720109100409268 /* MediaPlayground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D29EA0B91720186A00409268 /* media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29EA0911720109100409268 /* MediaPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29EA0B01720109100409268 /* Build configuration list for PBXNativeTarget "MediaPlayground" */;
+			buildPhases = (
+				D29EA08E1720109100409268 /* Sources */,
+				D29EA08F1720109100409268 /* Frameworks */,
+				D29EA0901720109100409268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaPlayground;
+			productName = MediaPlayground;
+			productReference = D29EA0921720109100409268 /* MediaPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29EA0891720109100409268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D29EA08C1720109100409268 /* Build configuration list for PBXProject "MediaPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D29EA0871720109100409268;
+			productRefGroup = D29EA0931720109100409268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29EA0911720109100409268 /* MediaPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29EA0901720109100409268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29EA0A11720109100409268 /* InfoPlist.strings in Resources */,
+				D29EA0AA1720109100409268 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29EA08E1720109100409268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29EA0A31720109100409268 /* main.m in Sources */,
+				D29EA0A71720109100409268 /* AppDelegate.m in Sources */,
+				D29EA0AD1720109100409268 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D29EA09F1720109100409268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29EA0A01720109100409268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D29EA0A81720109100409268 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29EA0A91720109100409268 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D29EA0AE1720109100409268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D29EA0AF1720109100409268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D29EA0B11720109100409268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayground/MediaPlayground-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayground/MediaPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D29EA0B21720109100409268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayground/MediaPlayground-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayground/MediaPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29EA08C1720109100409268 /* Build configuration list for PBXProject "MediaPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29EA0AE1720109100409268 /* Debug */,
+				D29EA0AF1720109100409268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29EA0B01720109100409268 /* Build configuration list for PBXNativeTarget "MediaPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29EA0B11720109100409268 /* Debug */,
+				D29EA0B21720109100409268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29EA0891720109100409268 /* Project object */;
+}
