@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2B4E5741723DD4D00A451B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B4E5731723DD4D00A451B2 /* UIKit.framework */; };
+		D2B4E5761723DD4D00A451B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B4E5751723DD4D00A451B2 /* Foundation.framework */; };
+		D2B4E5781723DD4D00A451B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B4E5771723DD4D00A451B2 /* CoreGraphics.framework */; };
+		D2B4E57E1723DD4D00A451B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B4E57C1723DD4D00A451B2 /* InfoPlist.strings */; };
+		D2B4E5801723DD4D00A451B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B4E57F1723DD4D00A451B2 /* main.m */; };
+		D2B4E5841723DD4D00A451B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B4E5831723DD4D00A451B2 /* AppDelegate.m */; };
+		D2B4E5871723DD4D00A451B2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B4E5851723DD4D00A451B2 /* MainStoryboard.storyboard */; };
+		D2B4E58A1723DD4D00A451B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B4E5891723DD4D00A451B2 /* ViewController.m */; };
+		D2B4E5911723DD6200A451B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B4E5901723DD6200A451B2 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2B4E56F1723DD4D00A451B2 /* Cuperino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuperino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B4E5731723DD4D00A451B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2B4E5751723DD4D00A451B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2B4E5771723DD4D00A451B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2B4E57B1723DD4D00A451B2 /* Cuperino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cuperino-Info.plist"; sourceTree = "<group>"; };
+		D2B4E57D1723DD4D00A451B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2B4E57F1723DD4D00A451B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2B4E5811723DD4D00A451B2 /* Cuperino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cuperino-Prefix.pch"; sourceTree = "<group>"; };
+		D2B4E5821723DD4D00A451B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2B4E5831723DD4D00A451B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2B4E5861723DD4D00A451B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D2B4E5881723DD4D00A451B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2B4E5891723DD4D00A451B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2B4E5901723DD6200A451B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2B4E56C1723DD4D00A451B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B4E5911723DD6200A451B2 /* CoreLocation.framework in Frameworks */,
+				D2B4E5741723DD4D00A451B2 /* UIKit.framework in Frameworks */,
+				D2B4E5761723DD4D00A451B2 /* Foundation.framework in Frameworks */,
+				D2B4E5781723DD4D00A451B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2B4E5641723DD4D00A451B2 = {
+			isa = PBXGroup;
+			children = (
+				D2B4E5901723DD6200A451B2 /* CoreLocation.framework */,
+				D2B4E5791723DD4D00A451B2 /* Cuperino */,
+				D2B4E5721723DD4D00A451B2 /* Frameworks */,
+				D2B4E5701723DD4D00A451B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2B4E5701723DD4D00A451B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2B4E56F1723DD4D00A451B2 /* Cuperino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2B4E5721723DD4D00A451B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2B4E5731723DD4D00A451B2 /* UIKit.framework */,
+				D2B4E5751723DD4D00A451B2 /* Foundation.framework */,
+				D2B4E5771723DD4D00A451B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B4E5791723DD4D00A451B2 /* Cuperino */ = {
+			isa = PBXGroup;
+			children = (
+				D2B4E5821723DD4D00A451B2 /* AppDelegate.h */,
+				D2B4E5831723DD4D00A451B2 /* AppDelegate.m */,
+				D2B4E5851723DD4D00A451B2 /* MainStoryboard.storyboard */,
+				D2B4E5881723DD4D00A451B2 /* ViewController.h */,
+				D2B4E5891723DD4D00A451B2 /* ViewController.m */,
+				D2B4E57A1723DD4D00A451B2 /* Supporting Files */,
+			);
+			path = Cuperino;
+			sourceTree = "<group>";
+		};
+		D2B4E57A1723DD4D00A451B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B4E57B1723DD4D00A451B2 /* Cuperino-Info.plist */,
+				D2B4E57C1723DD4D00A451B2 /* InfoPlist.strings */,
+				D2B4E57F1723DD4D00A451B2 /* main.m */,
+				D2B4E5811723DD4D00A451B2 /* Cuperino-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2B4E56E1723DD4D00A451B2 /* Cuperino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B4E58D1723DD4D00A451B2 /* Build configuration list for PBXNativeTarget "Cuperino" */;
+			buildPhases = (
+				D2B4E56B1723DD4D00A451B2 /* Sources */,
+				D2B4E56C1723DD4D00A451B2 /* Frameworks */,
+				D2B4E56D1723DD4D00A451B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cuperino;
+			productName = Cuperino;
+			productReference = D2B4E56F1723DD4D00A451B2 /* Cuperino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B4E5661723DD4D00A451B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D2B4E5691723DD4D00A451B2 /* Build configuration list for PBXProject "Cuperino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2B4E5641723DD4D00A451B2;
+			productRefGroup = D2B4E5701723DD4D00A451B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2B4E56E1723DD4D00A451B2 /* Cuperino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2B4E56D1723DD4D00A451B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B4E57E1723DD4D00A451B2 /* InfoPlist.strings in Resources */,
+				D2B4E5871723DD4D00A451B2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2B4E56B1723DD4D00A451B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B4E5801723DD4D00A451B2 /* main.m in Sources */,
+				D2B4E5841723DD4D00A451B2 /* AppDelegate.m in Sources */,
+				D2B4E58A1723DD4D00A451B2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2B4E57C1723DD4D00A451B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B4E57D1723DD4D00A451B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2B4E5851723DD4D00A451B2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B4E5861723DD4D00A451B2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2B4E58B1723DD4D00A451B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2B4E58C1723DD4D00A451B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2B4E58E1723DD4D00A451B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cuperino/Cuperino-Prefix.pch";
+				INFOPLIST_FILE = "Cuperino/Cuperino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2B4E58F1723DD4D00A451B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cuperino/Cuperino-Prefix.pch";
+				INFOPLIST_FILE = "Cuperino/Cuperino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2B4E5691723DD4D00A451B2 /* Build configuration list for PBXProject "Cuperino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B4E58B1723DD4D00A451B2 /* Debug */,
+				D2B4E58C1723DD4D00A451B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B4E58D1723DD4D00A451B2 /* Build configuration list for PBXNativeTarget "Cuperino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B4E58E1723DD4D00A451B2 /* Debug */,
+				D2B4E58F1723DD4D00A451B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B4E5661723DD4D00A451B2 /* Project object */;
+}
