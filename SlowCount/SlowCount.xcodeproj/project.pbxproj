@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D29C5EC31727FD7600AD93F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29C5EC21727FD7600AD93F9 /* UIKit.framework */; };
+		D29C5EC51727FD7600AD93F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29C5EC41727FD7600AD93F9 /* Foundation.framework */; };
+		D29C5EC71727FD7600AD93F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29C5EC61727FD7600AD93F9 /* CoreGraphics.framework */; };
+		D29C5ECD1727FD7600AD93F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D29C5ECB1727FD7600AD93F9 /* InfoPlist.strings */; };
+		D29C5ECF1727FD7600AD93F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D29C5ECE1727FD7600AD93F9 /* main.m */; };
+		D29C5ED31727FD7600AD93F9 /* lo2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D29C5ED21727FD7600AD93F9 /* lo2AppDelegate.m */; };
+		D29C5ED61727FD7600AD93F9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29C5ED41727FD7600AD93F9 /* MainStoryboard.storyboard */; };
+		D29C5ED91727FD7600AD93F9 /* lo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29C5ED81727FD7600AD93F9 /* lo2ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D29C5EBE1727FD7600AD93F9 /* SlowCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29C5EC21727FD7600AD93F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D29C5EC41727FD7600AD93F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D29C5EC61727FD7600AD93F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D29C5ECA1727FD7600AD93F9 /* SlowCount-Info.plist */ = {isa = PBXFileReference; path = "SlowCount-Info.plist"; sourceTree = "<group>"; };
+		D29C5ECC1727FD7600AD93F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D29C5ECE1727FD7600AD93F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D29C5ED01727FD7600AD93F9 /* SlowCount-Prefix.pch */ = {isa = PBXFileReference; path = "SlowCount-Prefix.pch"; sourceTree = "<group>"; };
+		D29C5ED11727FD7600AD93F9 /* lo2AppDelegate.h */ = {isa = PBXFileReference; path = lo2AppDelegate.h; sourceTree = "<group>"; };
+		D29C5ED21727FD7600AD93F9 /* lo2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lo2AppDelegate.m; sourceTree = "<group>"; };
+		D29C5ED51727FD7600AD93F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D29C5ED71727FD7600AD93F9 /* lo2ViewController.h */ = {isa = PBXFileReference; path = lo2ViewController.h; sourceTree = "<group>"; };
+		D29C5ED81727FD7600AD93F9 /* lo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lo2ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29C5EBB1727FD7600AD93F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29C5EC31727FD7600AD93F9 /* UIKit.framework in Frameworks */,
+				D29C5EC51727FD7600AD93F9 /* Foundation.framework in Frameworks */,
+				D29C5EC71727FD7600AD93F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D29C5EB31727FD7600AD93F9 = {
+			isa = PBXGroup;
+			children = (
+				D29C5EC81727FD7600AD93F9 /* SlowCount */,
+				D29C5EC11727FD7600AD93F9 /* Frameworks */,
+				D29C5EBF1727FD7600AD93F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D29C5EBF1727FD7600AD93F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29C5EBE1727FD7600AD93F9 /* SlowCount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29C5EC11727FD7600AD93F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29C5EC21727FD7600AD93F9 /* UIKit.framework */,
+				D29C5EC41727FD7600AD93F9 /* Foundation.framework */,
+				D29C5EC61727FD7600AD93F9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29C5EC81727FD7600AD93F9 /* SlowCount */ = {
+			isa = PBXGroup;
+			children = (
+				D29C5ED11727FD7600AD93F9 /* lo2AppDelegate.h */,
+				D29C5ED21727FD7600AD93F9 /* lo2AppDelegate.m */,
+				D29C5ED41727FD7600AD93F9 /* MainStoryboard.storyboard */,
+				D29C5ED71727FD7600AD93F9 /* lo2ViewController.h */,
+				D29C5ED81727FD7600AD93F9 /* lo2ViewController.m */,
+				D29C5EC91727FD7600AD93F9 /* Supporting Files */,
+			);
+			path = SlowCount;
+			sourceTree = "<group>";
+		};
+		D29C5EC91727FD7600AD93F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29C5ECA1727FD7600AD93F9 /* SlowCount-Info.plist */,
+				D29C5ECB1727FD7600AD93F9 /* InfoPlist.strings */,
+				D29C5ECE1727FD7600AD93F9 /* main.m */,
+				D29C5ED01727FD7600AD93F9 /* SlowCount-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29C5EBD1727FD7600AD93F9 /* SlowCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29C5EDC1727FD7600AD93F9 /* Build configuration list for PBXNativeTarget "SlowCount" */;
+			buildPhases = (
+				D29C5EBA1727FD7600AD93F9 /* Sources */,
+				D29C5EBB1727FD7600AD93F9 /* Frameworks */,
+				D29C5EBC1727FD7600AD93F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlowCount;
+			productName = SlowCount;
+			productReference = D29C5EBE1727FD7600AD93F9 /* SlowCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29C5EB51727FD7600AD93F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = lo2;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D29C5EB81727FD7600AD93F9 /* Build configuration list for PBXProject "SlowCount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D29C5EB31727FD7600AD93F9;
+			productRefGroup = D29C5EBF1727FD7600AD93F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29C5EBD1727FD7600AD93F9 /* SlowCount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29C5EBC1727FD7600AD93F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29C5ECD1727FD7600AD93F9 /* InfoPlist.strings in Resources */,
+				D29C5ED61727FD7600AD93F9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29C5EBA1727FD7600AD93F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29C5ECF1727FD7600AD93F9 /* main.m in Sources */,
+				D29C5ED31727FD7600AD93F9 /* lo2AppDelegate.m in Sources */,
+				D29C5ED91727FD7600AD93F9 /* lo2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D29C5ECB1727FD7600AD93F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29C5ECC1727FD7600AD93F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D29C5ED41727FD7600AD93F9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29C5ED51727FD7600AD93F9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D29C5EDA1727FD7600AD93F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D29C5EDB1727FD7600AD93F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D29C5EDD1727FD7600AD93F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowCount/SlowCount-Prefix.pch";
+				INFOPLIST_FILE = "SlowCount/SlowCount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D29C5EDE1727FD7600AD93F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowCount/SlowCount-Prefix.pch";
+				INFOPLIST_FILE = "SlowCount/SlowCount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29C5EB81727FD7600AD93F9 /* Build configuration list for PBXProject "SlowCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29C5EDA1727FD7600AD93F9 /* Debug */,
+				D29C5EDB1727FD7600AD93F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29C5EDC1727FD7600AD93F9 /* Build configuration list for PBXNativeTarget "SlowCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29C5EDD1727FD7600AD93F9 /* Debug */,
+				D29C5EDE1727FD7600AD93F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29C5EB51727FD7600AD93F9 /* Project object */;
+}
