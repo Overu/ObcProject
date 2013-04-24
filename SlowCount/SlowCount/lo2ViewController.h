@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface lo2ViewController : UIViewController
+{
+    int ccount;
+    UIBackgroundTaskIdentifier counterTask;
+}
+@property (strong, nonatomic) IBOutlet UILabel *count;
+@property (strong, nonatomic) NSTimer *theTimer;
+
+- (void) countUp;
 
 @end

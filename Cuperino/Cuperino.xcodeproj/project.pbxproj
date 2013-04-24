@@ -278,6 +278,7 @@
 				D2B4E58F1723DD4D00A451B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

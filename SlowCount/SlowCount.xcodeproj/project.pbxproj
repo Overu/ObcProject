@@ -22,14 +22,14 @@
 		D29C5EC21727FD7600AD93F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D29C5EC41727FD7600AD93F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D29C5EC61727FD7600AD93F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D29C5ECA1727FD7600AD93F9 /* SlowCount-Info.plist */ = {isa = PBXFileReference; path = "SlowCount-Info.plist"; sourceTree = "<group>"; };
+		D29C5ECA1727FD7600AD93F9 /* SlowCount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlowCount-Info.plist"; sourceTree = "<group>"; };
 		D29C5ECC1727FD7600AD93F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D29C5ECE1727FD7600AD93F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D29C5ED01727FD7600AD93F9 /* SlowCount-Prefix.pch */ = {isa = PBXFileReference; path = "SlowCount-Prefix.pch"; sourceTree = "<group>"; };
-		D29C5ED11727FD7600AD93F9 /* lo2AppDelegate.h */ = {isa = PBXFileReference; path = lo2AppDelegate.h; sourceTree = "<group>"; };
+		D29C5ED01727FD7600AD93F9 /* SlowCount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlowCount-Prefix.pch"; sourceTree = "<group>"; };
+		D29C5ED11727FD7600AD93F9 /* lo2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lo2AppDelegate.h; sourceTree = "<group>"; };
 		D29C5ED21727FD7600AD93F9 /* lo2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lo2AppDelegate.m; sourceTree = "<group>"; };
 		D29C5ED51727FD7600AD93F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D29C5ED71727FD7600AD93F9 /* lo2ViewController.h */ = {isa = PBXFileReference; path = lo2ViewController.h; sourceTree = "<group>"; };
+		D29C5ED71727FD7600AD93F9 /* lo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lo2ViewController.h; sourceTree = "<group>"; };
 		D29C5ED81727FD7600AD93F9 /* lo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lo2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
